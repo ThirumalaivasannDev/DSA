@@ -1,0 +1,6 @@
+import java.util.Scanner;
+
+Scanner scan=new Scanner(System.in);
+
+
+int num=scan.nextInt();
