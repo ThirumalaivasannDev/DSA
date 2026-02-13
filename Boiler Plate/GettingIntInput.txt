@@ -1,6 +1,12 @@
 import java.util.Scanner;
-
+import static java.lang.Math;
 
 
 Scanner scan=new Scanner(System.in);
       int num=scan.nextInt();
+
+
+
+Scanner scan=new Scanner(System.in);
+      int num1=scan.nextInt();
+      int num2=scan.nextInt();

@@ -22,7 +22,7 @@ class PrintDivisors
   {
 
     List<Integer> list=new ArrayList<>();
-    for(int i=1;i<=(int)Math.sqrt(num);i++)
+    for(int i=1;i*i<=num;i++)   //6*6<=36  7*7<=36
     {
       if(num%i==0)
       {
@@ -36,5 +36,9 @@ class PrintDivisors
     System.err.println(list);
     Collections.sort(list);
     System.err.println(list);
+    for(int i:list)
+    {
+      System.err.println(i);
+    }
   }
 }
